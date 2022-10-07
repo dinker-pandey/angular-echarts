@@ -26,6 +26,7 @@ export class BarEncodeComponent {
     grid: { containLabel: true },
     xAxis: { name: 'amount' },
     yAxis: { type: 'category' },
+    tooltip: {},
     visualMap: {
       orient: 'horizontal',
       left: 'center',
